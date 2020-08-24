@@ -1,0 +1,12 @@
+z webapp config appsettings set --resource-group cognito  --name cognit   --settings WEBSITES_PORT=443
+az webapp config show --resource-group cognito --name cognit --query linuxFxVersion
+az webapp config set --resource-group cognito --name cognitt --linux-fx-version "PYTHON|3.8"
+az webapp list-runtimes --linux | grep PYTHON
+ az webapp up -n cognit
+az webapp config set -g cognito -n cognit --startup-file startup.txt
+ git clone https://github.com/rajbharathi/cognit
+az webapp list-runtimes --linux | grep PYTHON
+pip install -r requirements.txt
+/usr/bin/python3 -m pip install --upgrade pip
+ pip freeze
+

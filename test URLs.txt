@@ -1,0 +1,31 @@
+https://upload.wikimedia.org/wikipedia/commons/e/ea/Aishwariya_Rai_%28face%29.jpg
+https://upload.wikimedia.org/wikipedia/commons/9/90/PM_Modi_2015.jpg
+https://media13.s-nbcnews.com/j/MSNBC/Components/Video/202007/AFP_1V12BZ.focal-760x428.jpg
+https://specials-images.forbesimg.com/imageserve/5ed52724570be80006473fa6/960x0.jpg 
+
+https://st3.depositphotos.com/16284008/36109/i/450/depositphotos_361092596-stock-photo-young-woman-protective-medical-mask.jpg
+
+https://assets.reebok.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/28e7116674584c20826fabb300a9ccb7_9366/Face_Covers_M_L_3_Pack_Black_H18222_01_standard.jpg
+
+ print("\t" + prediction.tag_name + ": {0:.2f}% bbox.left = {1:.2f}, bbox.top = {2:.2f}, bbox.width = {3:.2f}, bbox.height = {4:.2f}".format(	 * 100, prediction.bounding_box.left, prediction.bounding_box.top, prediction.bounding_box.width, prediction.bounding_box.height))
+
+
+
+
+   #image = "https://upload.wikimedia.org/wikipedia/commons/e/ea/Aishwariya_Rai_%28face%29.jpg"
+   #image = "https://st3.depositphotos.com/16284008/36109/i/450/depositphotos_361092596-stock-photo-young-woman-protective-medical-mask.jpg"
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rajbharathi/cognit.git
+git push -u origin master
+
+az webapp config set -g cognito -n cognit --startup-file startup.txt
+https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops
+https://docs.microsoft.com/en-us/azure/developer/python/tutorial-deploy-app-service-on-linux-04
+https://docs.microsoft.com/en-us/azure/app-service/configure-custom-container
+https://github.com/MicrosoftDocs/azure-docs/issues/34451
+https://github.com/rajbharathi/cognit
+https://shell.azure.com/
+https://docs.microsoft.com/en-us/azure/app-service/configure-language-python
